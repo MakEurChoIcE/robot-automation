@@ -4,7 +4,7 @@ Resource            main.resource
 
 
 *** Variables ***
-${HEADLESS}  False
+${HEADLESS}  ${HEADLESS}
 ${TEARDOWN}  True
 ${URL}  https://www.saucedemo.com
 ${FAST_TIMEOUT}  5
