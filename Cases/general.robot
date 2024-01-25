@@ -14,7 +14,7 @@ Comprar luz para bike
     [Documentation]  Realizando a compra
     ${First Name}  FakerLibrary.First Name
     ${Last Name}   FakerLibrary.Last Name
-    ${Zip Code}    FakerLibrary.Zip
+    ${Zip Code}    FakerLibrary.Postcode
     Login Access
     Click                                ${pageShop.addtoCartSauce}
     Wait Until Element Is Visible        ${pageShop.removeCartSauce}
