@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation        Funcionalidade: Acessar conta pessoal
-Resource             main.resource
+Resource             ${EXECDIR}${/}Resources${/}main.resource
 Test Setup           Abrir Navegador
 Test Teardown        Fechar Navegador
 
