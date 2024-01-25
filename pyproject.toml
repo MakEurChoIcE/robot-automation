@@ -1,0 +1,23 @@
+[tool.robocop]
+
+reports = [
+    "rules_by_id",
+    "scan_timer",
+    "rules_by_error_type",
+    "file_stats"
+]
+filetypes = [".txt", ".tsv"]
+format = "{source}:{line}:{col} [{severity}] {rule_id} {desc} (name)"
+threshold = "I"
+configure = [
+    "empty-line-after-section:empty_lines:1",
+    "missing-doc-test-case:enabled:False",
+    "empty-section:enabled:False",
+    "too-many-calls-in-test-case:enabled:False",
+    "too-many-calls-in-keyword:enabled:False",
+    "section-variable-not-uppercase:enabled:False",
+    "too-long-test-case:enabled:False",
+    "missing-doc-keyword:enabled:False",
+    "line-too-long:severity:I"
+]
+persistent = true
